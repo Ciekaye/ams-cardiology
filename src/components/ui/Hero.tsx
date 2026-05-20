@@ -211,10 +211,13 @@ export default function Hero({
         .ecg-pulse path {
           stroke-dasharray: 1600;
           stroke-dashoffset: 1600;
-          animation: ecg-draw 2.4s ease-out 0.3s forwards;
+          animation: ecg-draw 4s linear 0.3s infinite;
           filter: drop-shadow(0 0 6px rgba(227, 111, 111, 0.5));
         }
         @keyframes ecg-draw {
+          from {
+            stroke-dashoffset: 1600;
+          }
           to {
             stroke-dashoffset: 0;
           }
