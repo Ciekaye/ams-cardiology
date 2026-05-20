@@ -16,12 +16,12 @@ import {
 } from "lucide-react";
 import Button from "@/components/ui/Button";
 import SectionHeading from "@/components/ui/SectionHeading";
-import VideoHero from "@/components/ui/VideoHero";
+import Hero from "@/components/ui/Hero";
 import { physicians } from "@/data/physicians";
 import { services } from "@/data/services";
 import { locations } from "@/data/locations";
 import { blogPosts } from "@/data/blog";
-import { homeSectionImages, getPhysicianPortrait, getLocationImage, getBlogImage } from "@/data/images";
+import { heroImages, homeSectionImages, getPhysicianPortrait, getLocationImage, getBlogImage } from "@/data/images";
 
 export default function Home() {
   const featuredPhysicians = physicians.slice(0, 4);
@@ -31,9 +31,9 @@ export default function Home() {
   return (
     <>
       {/* ===== HERO SECTION ===== */}
-      <VideoHero
-        videoUrl="https://amscardiology.com/wp-content/uploads/2025/04/AMS-Cardiology-New-1.mp4"
-        headline="Expert Heart Care with Modern Technology"
+      <Hero
+        imageUrl={heroImages.home}
+        headline="Modern Heart Care, Rooted in Trust"
         subheadline="Providing comprehensive cardiology services focused on prevention, diagnosis, and advanced treatment with 19+ board-certified specialists."
         primaryCTA={{
           text: "Book Appointment",
@@ -46,7 +46,7 @@ export default function Home() {
       />
 
       {/* ===== QUICK ACCESS CARDS ===== */}
-      <section className="relative py-16 bg-white">
+      <section className="relative py-16 bg-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
@@ -72,20 +72,18 @@ export default function Home() {
       </section>
 
       {/* ===== ABOUT / TRUST SECTION ===== */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="inline-block text-sm font-bold tracking-widest uppercase mb-3 text-accent">
-                About AMS Cardiology
+                About Vireo Cardiology
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-primary-dark mb-6 leading-tight">
-                Celebrating Over 40 Years of Helping Hearts
+                Modern Heart Care, Rooted in Trust
               </h2>
               <p className="text-lg text-text-secondary leading-relaxed mb-6">
-                Since the 1970s, AMS Cardiology has been one of the leading cardiologist groups in the
-                Greater Philadelphia Area. Our mission is to help your heart with superb patient
-                satisfaction and state-of-the-art cardiovascular care.
+                Vireo Cardiology provides evidence-based cardiovascular care to the Greater Philadelphia Area. Our mission is to help your heart with superb patient satisfaction and state-of-the-art cardiovascular care.
               </p>
               <p className="text-text-secondary leading-relaxed mb-8">
                 Our physicians, nurse practitioners, and physician assistants are lifelong learners on
@@ -95,7 +93,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-6 mb-8">
                 {[
                   { number: "19+", label: "Board-Certified Cardiologists" },
-                  { number: "40+", label: "Years of Excellence" },
+                  { number: "10+", label: "Years of Excellence" },
                   { number: "4", label: "Convenient Locations" },
                   { number: "100K+", label: "Patients Served" },
                 ].map((stat) => (
@@ -130,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICES PREVIEW ===== */}
-      <section className="py-20 bg-bg-warm">
+      <section className="py-20 bg-bg-warm reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Comprehensive Care"
@@ -186,7 +184,7 @@ export default function Home() {
       </section>
 
       {/* ===== PHYSICIANS PREVIEW ===== */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Our Experts"
@@ -233,7 +231,7 @@ export default function Home() {
       </section>
 
       {/* ===== LOCATIONS PREVIEW ===== */}
-      <section className="py-20 bg-bg-warm">
+      <section className="py-20 bg-bg-warm reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Convenient Access"
@@ -278,7 +276,7 @@ export default function Home() {
       </section>
 
       {/* ===== PATIENT RESOURCES ===== */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="For Our Patients"
@@ -350,11 +348,11 @@ export default function Home() {
       </section>
 
       {/* ===== BLOG PREVIEW ===== */}
-      <section className="py-20 bg-bg-warm">
+      <section className="py-20 bg-bg-warm reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Stay Informed"
-            title="Latest from the AMS Blog"
+            title="Latest from the Vireo Blog"
             description="Expert insights and educational content from our cardiology team to help you stay heart-healthy."
           />
           <div className="grid md:grid-cols-3 gap-8">
@@ -410,29 +408,29 @@ export default function Home() {
       </section>
 
       {/* ===== TESTIMONIALS ===== */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Patient Testimonials"
             title="What Our Patients Say"
-            description="Hear from the thousands of patients who trust AMS Cardiology for their heart care."
+            description="Hear from the thousands of patients who trust Vireo Cardiology for their heart care."
           />
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                quote: "The entire team at AMS Cardiology made me feel comfortable and well-cared for. Dr. Cohen took the time to explain everything thoroughly and answered all my questions.",
+                quote: "The entire team at Vireo Cardiology made me feel comfortable and well-cared for. Dr. Kim took the time to explain everything thoroughly and answered all my questions.",
                 name: "Margaret T.",
-                location: "Horsham, PA",
+                location: "Philadelphia, PA",
               },
               {
-                quote: "After my heart scare, I was terrified. The staff at AMS were incredibly compassionate and professional. I felt like I was in the best hands possible throughout my entire treatment.",
+                quote: "After my heart scare, I was terrified. The staff at Vireo were incredibly compassionate and professional. I felt like I was in the best hands possible throughout my entire treatment.",
                 name: "Robert K.",
-                location: "North Wales, PA",
+                location: "Cherry Hill, NJ",
               },
               {
-                quote: "I've been a patient at AMS for over 15 years. Their commitment to staying current with the latest technology and treatments gives me confidence in my ongoing care.",
+                quote: "I've been a patient at Vireo for over 15 years. Their commitment to staying current with the latest technology and treatments gives me confidence in my ongoing care.",
                 name: "Susan M.",
-                location: "Lansdale, PA",
+                location: "Philadelphia, PA",
               },
             ].map((testimonial) => (
               <div
@@ -458,7 +456,7 @@ export default function Home() {
       </section>
 
       {/* ===== CARDIAC REHAB HIGHLIGHT ===== */}
-      <section className="py-20 bg-gradient-to-br from-primary to-primary-light text-white">
+      <section className="py-20 bg-gradient-to-br from-primary to-primary-light text-white reveal">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -492,7 +490,7 @@ export default function Home() {
       </section>
 
       {/* ===== APPOINTMENT CTA ===== */}
-      <section className="py-20 bg-bg-warm">
+      <section className="py-20 bg-bg-warm reveal">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <Heart className="w-12 h-12 text-secondary mx-auto mb-6" strokeWidth={1.5} />
           <h2 className="text-3xl md:text-4xl font-bold text-primary-dark mb-4">
@@ -507,9 +505,9 @@ export default function Home() {
               <CalendarCheck className="w-5 h-5 mr-2" />
               Request an Appointment
             </Button>
-            <Button href="tel:+12155171000" variant="outline" size="lg">
+            <Button href="tel:+15550143782" variant="outline" size="lg">
               <Phone className="w-5 h-5 mr-2" />
-              Call 215-517-1000
+              Call (555) 014-3782
             </Button>
           </div>
         </div>

@@ -10,7 +10,7 @@ import { conditionCardImages } from "@/data/images";
 export const metadata: Metadata = {
   title: "Conditions We Treat",
   description:
-    "AMS Cardiology diagnoses and treats a wide range of cardiovascular conditions including atrial fibrillation, aortic stenosis, peripheral artery disease, and more.",
+    "Vireo Cardiology diagnoses and treats a wide range of cardiovascular conditions including atrial fibrillation, aortic stenosis, peripheral artery disease, and more.",
 };
 
 const iconMap: Record<string, React.ElementType> = {

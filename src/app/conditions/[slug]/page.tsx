@@ -85,7 +85,7 @@ export default async function ConditionDetailPage({ params }: Props) {
                 ))}
               </ul>
 
-              <h2 className="text-2xl font-bold text-primary-dark mb-4">Treatment Options at AMS Cardiology</h2>
+              <h2 className="text-2xl font-bold text-primary-dark mb-4">Treatment Options at Vireo Cardiology</h2>
               <p className="text-text-secondary leading-relaxed mb-4">
                 Our board-certified cardiologists develop personalized treatment plans based on your
                 specific condition, medical history, and lifestyle. Treatment options may include
@@ -93,7 +93,7 @@ export default async function ConditionDetailPage({ params }: Props) {
                 advanced surgical interventions.
               </p>
               <p className="text-text-secondary leading-relaxed">
-                With over 40 years of experience and access to the latest cardiovascular technologies,
+                With more than a decade of experience and access to the latest cardiovascular technologies,
                 our team is uniquely positioned to provide comprehensive care for this condition.
               </p>
             </div>
@@ -111,9 +111,9 @@ export default async function ConditionDetailPage({ params }: Props) {
                       <CalendarCheck className="w-4 h-4 mr-2" />
                       Request Appointment
                     </Button>
-                    <Button href="tel:+12155171000" variant="outline" className="w-full">
+                    <Button href="tel:+15550143782" variant="outline" className="w-full">
                       <Phone className="w-4 h-4 mr-2" />
-                      Call 215-517-1000
+                      Call (555) 014-3782
                     </Button>
                   </div>
                 </div>

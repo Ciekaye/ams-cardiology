@@ -8,7 +8,7 @@ import { aboutImages } from "@/data/images";
 export const metadata: Metadata = {
   title: "Our Mission",
   description:
-    "Since the 1970s, AMS Cardiology has been one of the leading cardiologist groups in the Greater Philadelphia Area. Learn about our mission and commitment to heart care.",
+    "Vireo Cardiology provides evidence-based cardiovascular care to the Greater Philadelphia Area. Learn about our mission and commitment to heart care.",
 };
 
 export default function AboutPage() {
@@ -18,12 +18,11 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-primary-dark via-primary to-primary-light py-20">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <span className="inline-block text-sm font-bold tracking-widest uppercase mb-3 text-accent-light">
-            About AMS Cardiology
+            About Vireo Cardiology
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Mission</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Celebrating over 40 years of helping hearts in the Greater Philadelphia area with
-            state-of-the-art cardiovascular care.
+            Modern heart care, rooted in trust. We are committed to delivering exceptional cardiovascular care with compassion and expertise.
           </p>
         </div>
       </section>
@@ -34,18 +33,13 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary-dark mb-6 leading-tight">
-                Celebrating Over 40 Years of Helping Hearts
+                Modern Heart Care, Rooted in Trust
               </h2>
               <p className="text-lg text-text-secondary leading-relaxed mb-6">
-                Since the 1970s, AMS Cardiology has been one of the leading cardiologist groups in the
-                Greater Philadelphia Area. Our mission is to help your heart with superb patient
-                satisfaction.
+                Vireo Cardiology provides evidence-based cardiovascular care to the Greater Philadelphia Area. Our mission is to help your heart with superb patient satisfaction.
               </p>
               <p className="text-text-secondary leading-relaxed mb-6">
-                AMS Cardiology, a comprehensive cardiovascular practice, is committed to preventing and
-                treating all aspects of cardiovascular disease. As one of the most well-respected groups
-                in the Philadelphia region, AMS Cardiology brings the latest state-of-the-art
-                cardiovascular care to our patients.
+                Vireo Cardiology, a comprehensive cardiovascular practice, is committed to preventing and treating all aspects of cardiovascular disease. As one of the most well-respected groups in the Philadelphia region, Vireo Cardiology brings the latest state-of-the-art cardiovascular care to our patients.
               </p>
               <p className="text-text-secondary leading-relaxed mb-8">
                 Understanding the rapid growth of cardiology, our physicians, nurse practitioners and
@@ -65,7 +59,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-primary text-white rounded-xl shadow-xl p-6">
-                <p className="text-3xl font-bold">40+</p>
+                <p className="text-3xl font-bold">10+</p>
                 <p className="text-sm text-white/70">Years of Excellence</p>
               </div>
             </div>
@@ -78,7 +72,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4">
           <SectionHeading
             label="Our Values"
-            title="Why Choose AMS Cardiology"
+            title="Why Choose Vireo Cardiology"
             description="We are committed to delivering the highest standard of cardiovascular care with compassion, integrity, and excellence."
           />
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -91,7 +85,7 @@ export default function AboutPage() {
               {
                 icon: Award,
                 title: "Proven Excellence",
-                desc: "Over 40 years of trusted cardiovascular care in the Greater Philadelphia region.",
+                desc: "More than a decade of trusted cardiovascular care in the Greater Philadelphia region.",
               },
               {
                 icon: Building2,
@@ -122,7 +116,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { number: "19+", label: "Board-Certified Cardiologists", icon: Users },
-              { number: "40+", label: "Years Serving the Community", icon: Award },
+              { number: "10+", label: "Years Serving the Community", icon: Award },
               { number: "4", label: "Convenient Locations", icon: Building2 },
               { number: "100K+", label: "Patients Served", icon: Heart },
             ].map((stat) => (
@@ -185,7 +179,7 @@ export default function AboutPage() {
       <section className="py-20 bg-gradient-to-br from-primary to-primary-light">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Experience the AMS Difference?
+            Ready to Experience the Vireo Difference?
           </h2>
           <p className="text-lg text-white/80 leading-relaxed mb-8 max-w-2xl mx-auto">
             Schedule your appointment with one of our experienced cardiologists today.

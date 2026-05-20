@@ -8,7 +8,7 @@ import { appPortraits } from "@/data/images";
 export const metadata: Metadata = {
   title: "Advanced Practice Professionals",
   description:
-    "Meet the dedicated Nurse Practitioners and Physician Assistants at AMS Cardiology who provide exceptional cardiovascular care.",
+    "Meet the dedicated Nurse Practitioners and Physician Assistants at Vireo Cardiology who provide exceptional cardiovascular care.",
 };
 
 const practitioners = [

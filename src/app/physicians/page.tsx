@@ -10,7 +10,7 @@ import { getPhysicianPortrait } from "@/data/images";
 export const metadata: Metadata = {
   title: "Our Physicians",
   description:
-    "Meet our team of 19+ board-certified cardiologists at AMS Cardiology, serving Montgomery County and the Greater Philadelphia area.",
+    "Meet our team of 19+ board-certified cardiologists at Vireo Cardiology, serving Montgomery County and the Greater Philadelphia area.",
 };
 
 export default function PhysiciansPage() {

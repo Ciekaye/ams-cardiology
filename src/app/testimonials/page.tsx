@@ -6,26 +6,26 @@ import SectionHeading from "@/components/ui/SectionHeading";
 export const metadata: Metadata = {
   title: "Patient Testimonials",
   description:
-    "Read what patients say about their experience at AMS Cardiology. Real stories from real patients across Montgomery County, PA.",
+    "Read what patients say about their experience at Vireo Cardiology. Real stories from real patients across the Greater Philadelphia area.",
 };
 
 const testimonials = [
   {
-    quote: "The entire team at AMS Cardiology made me feel comfortable and well-cared for. Dr. Cohen took the time to explain everything thoroughly and answered all my questions.",
+    quote: "The entire team at Vireo Cardiology made me feel comfortable and well-cared for. Dr. Kim took the time to explain everything thoroughly and answered all my questions.",
     name: "Margaret T.",
-    location: "Horsham, PA",
+    location: "Philadelphia, PA",
     rating: 5,
   },
   {
-    quote: "After my heart scare, I was terrified. The staff at AMS were incredibly compassionate and professional. I felt like I was in the best hands possible throughout my entire treatment.",
+    quote: "After my heart scare, I was terrified. The staff at Vireo were incredibly compassionate and professional. I felt like I was in the best hands possible throughout my entire treatment.",
     name: "Robert K.",
-    location: "North Wales, PA",
+    location: "Cherry Hill, NJ",
     rating: 5,
   },
   {
-    quote: "I've been a patient at AMS for over 15 years. Their commitment to staying current with the latest technology and treatments gives me confidence in my ongoing care.",
+    quote: "I've been a patient at Vireo for over 15 years. Their commitment to staying current with the latest technology and treatments gives me confidence in my ongoing care.",
     name: "Susan M.",
-    location: "Lansdale, PA",
+    location: "Philadelphia, PA",
     rating: 5,
   },
   {
@@ -41,9 +41,9 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: "The cardiac rehab program at AMS completely changed my recovery. The team was motivating and supportive, and I feel stronger than I have in years.",
+    quote: "The cardiac rehab program at Vireo completely changed my recovery. The team was motivating and supportive, and I feel stronger than I have in years.",
     name: "Thomas R.",
-    location: "Gwynedd, PA",
+    location: "Philadelphia, PA",
     rating: 5,
   },
   {
@@ -53,15 +53,15 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: "From the front desk to the cardiologists, everyone at AMS is professional and kind. The office is clean, modern, and they respect your time. Highly recommend.",
+    quote: "From the front desk to the cardiologists, everyone at Vireo is professional and kind. The office is clean, modern, and they respect your time. Highly recommend.",
     name: "William H.",
-    location: "Plymouth Meeting, PA",
+    location: "Philadelphia, PA",
     rating: 5,
   },
   {
-    quote: "Dr. Shapiro is incredibly thorough and genuinely cares about his patients. He caught something other doctors missed and I'm so grateful I chose AMS Cardiology.",
+    quote: "Dr. Wright is incredibly thorough and genuinely cares about his patients. He caught something other doctors missed and I'm so grateful I chose Vireo Cardiology.",
     name: "Barbara G.",
-    location: "Dresher, PA",
+    location: "Philadelphia, PA",
     rating: 5,
   },
 ];
@@ -77,7 +77,7 @@ export default function TestimonialsPage() {
           </span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Patient Testimonials</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
-            Hear from the thousands of patients who trust AMS Cardiology for their heart care.
+            Hear from the thousands of patients who trust Vireo Cardiology for their heart care.
           </p>
         </div>
       </section>
@@ -113,8 +113,8 @@ export default function TestimonialsPage() {
       <section className="py-16 bg-bg-warm">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <SectionHeading
-            title="Experience the AMS Difference"
-            description="Join the thousands of patients who trust AMS Cardiology for their heart care."
+            title="Experience the Vireo Difference"
+            description="Join the thousands of patients who trust Vireo Cardiology for their heart care."
           />
           <Button href="/contact" variant="secondary" size="lg">
             <CalendarCheck className="w-5 h-5 mr-2" />

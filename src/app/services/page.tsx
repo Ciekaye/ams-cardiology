@@ -9,7 +9,7 @@ import { services } from "@/data/services";
 export const metadata: Metadata = {
   title: "Services & Procedures",
   description:
-    "AMS Cardiology offers comprehensive cardiovascular services including echocardiography, electrophysiology, interventional cardiology, PET/CT imaging, and cardiac rehabilitation.",
+    "Vireo Cardiology offers comprehensive cardiovascular services including echocardiography, electrophysiology, interventional cardiology, PET/CT imaging, and cardiac rehabilitation.",
 };
 
 const iconMap: Record<string, React.ElementType> = {

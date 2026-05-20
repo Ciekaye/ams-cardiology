@@ -87,11 +87,11 @@ export default async function ServiceDetailPage({ params }: Props) {
                 ))}
               </ul>
 
-              <h2 className="text-2xl font-bold text-primary-dark mb-4">Why Choose AMS Cardiology</h2>
+              <h2 className="text-2xl font-bold text-primary-dark mb-4">Why Choose Vireo Cardiology</h2>
               <p className="text-text-secondary leading-relaxed mb-4">
-                At AMS Cardiology, our team of board-certified specialists uses the most advanced
-                technology and techniques available to provide exceptional patient outcomes. With over
-                40 years of experience, we are trusted leaders in cardiovascular care.
+                At Vireo Cardiology, our team of board-certified specialists uses the most advanced
+                technology and techniques available to provide exceptional patient outcomes. With more
+                than a decade of experience, we are trusted leaders in cardiovascular care.
               </p>
             </div>
 
@@ -108,9 +108,9 @@ export default async function ServiceDetailPage({ params }: Props) {
                       <CalendarCheck className="w-4 h-4 mr-2" />
                       Request Appointment
                     </Button>
-                    <Button href="tel:+12155171000" variant="outline" className="w-full">
+                    <Button href="tel:+15550143782" variant="outline" className="w-full">
                       <Phone className="w-4 h-4 mr-2" />
-                      Call 215-517-1000
+                      Call (555) 014-3782
                     </Button>
                   </div>
                 </div>

@@ -68,9 +68,9 @@ export default async function PhysicianDetailPage({ params }: Props) {
                       <CalendarCheck className="w-4 h-4 mr-2" />
                       Request Appointment
                     </Button>
-                    <Button href="tel:+12155171000" variant="outline" className="w-full">
+                    <Button href="tel:+15550143782" variant="outline" className="w-full">
                       <Phone className="w-4 h-4 mr-2" />
-                      Call 215-517-1000
+                      Call (555) 014-3782
                     </Button>
                   </div>
                 </div>
@@ -135,9 +135,10 @@ export default async function PhysicianDetailPage({ params }: Props) {
                   Locations
                 </h2>
                 <div className="grid sm:grid-cols-2 gap-4">
+                  {/* fictional addresses for portfolio demo */}
                   {[
-                    { name: "Welsh Road – Main Office", address: "500 Welsh Road, Suite 100, Horsham, PA" },
-                    { name: "North Wales Office", address: "1180 Welsh Road, Suite 100, North Wales, PA" },
+                    { name: "Chestnut Street – Main Office", address: "1234 Chestnut Street, Suite 500, Philadelphia, PA" },
+                    { name: "Market Street – Surgery Center", address: "567 Market Street, Philadelphia, PA" },
                   ].map((loc) => (
                     <Link
                       key={loc.name}

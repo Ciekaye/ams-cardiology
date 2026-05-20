@@ -8,7 +8,7 @@ import { telemedicineImages } from "@/data/images";
 export const metadata: Metadata = {
   title: "Telemedicine",
   description:
-    "Connect with your AMS Cardiology cardiologist from home through our secure, HIPAA-compliant telemedicine platform.",
+    "Connect with your Vireo Cardiology cardiologist from home through our secure, HIPAA-compliant telemedicine platform.",
 };
 
 export default function TelemedicinePage() {
@@ -65,7 +65,7 @@ export default function TelemedicinePage() {
           />
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {[
-              { step: "1", title: "Schedule", desc: "Call our office at 215-517-1000 or submit an online request to schedule your telemedicine visit." },
+              { step: "1", title: "Schedule", desc: "Call our office at (555) 014-3782 or submit an online request to schedule your telemedicine visit." },
               { step: "2", title: "Prepare", desc: "You'll receive a link and instructions before your appointment. Have your medication list and questions ready." },
               { step: "3", title: "Connect", desc: "At your appointment time, click the link to join the video call with your cardiologist." },
             ].map((item) => (
@@ -133,9 +133,9 @@ export default function TelemedicinePage() {
               <CalendarCheck className="w-5 h-5 mr-2" />
               Request Appointment
             </Button>
-            <Button href="tel:+12155171000" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button href="tel:+15550143782" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
               <Phone className="w-5 h-5 mr-2" />
-              Call 215-517-1000
+              Call (555) 014-3782
             </Button>
           </div>
         </div>
