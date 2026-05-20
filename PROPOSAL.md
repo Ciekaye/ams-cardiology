@@ -1,4 +1,6 @@
-# AMS Cardiology — Website Redesign Proposal
+# Vireo Cardiology — Website Redesign Proposal
+
+> Note: Vireo Cardiology is a fictional brand created for a portfolio case study. See [CASE_STUDY.md](CASE_STUDY.md) and [BRAND.md](BRAND.md).
 
 ## Proposed Sitemap
 
@@ -46,10 +48,10 @@
 ## Redesign Improvements Summary
 
 ### Visual Design
-- Modern navy/blue + white + soft gray palette conveying trust and professionalism
+- Calm teal + coral + mist palette conveying trust, warmth, and modern professionalism
 - Clean card-based layouts with subtle shadows and rounded corners
 - Consistent spacing system using Tailwind's scale
-- Premium Inter font for excellent readability
+- Fraunces display serif for headings paired with Inter for body and UI
 
 ### Navigation & Structure
 - Streamlined top utility bar (phone, portal, pay bill, telemedicine, appointment CTA)
@@ -64,7 +66,7 @@
 - Phone number prominently displayed across all breakpoints
 
 ### Trust & Credibility
-- "40+ Years" and "19+ Cardiologists" trust indicators in hero
+- "10+ Years" and "19+ Cardiologists" trust indicators in hero
 - Dedicated testimonials section with star ratings
 - Statistics bar (cardiologists, years, locations, patients served)
 - Board certification badges and specialty tags
@@ -92,7 +94,7 @@
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS v4
 - **Icons:** Lucide React
-- **Font:** Inter (Google Fonts)
+- **Fonts:** Fraunces + Inter (Google Fonts via next/font)
 - **Architecture:** Component-based, data-driven, CMS-ready
 
 ---

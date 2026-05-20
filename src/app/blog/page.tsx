@@ -9,7 +9,7 @@ import { getBlogImage } from "@/data/images";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Stay informed with the latest cardiology insights, heart health tips, and educational content from the AMS Cardiology team.",
+    "Stay informed with the latest cardiology insights, heart health tips, and educational content from the Vireo Cardiology team.",
 };
 
 export default function BlogPage() {
@@ -21,7 +21,7 @@ export default function BlogPage() {
           <span className="inline-block text-sm font-bold tracking-widest uppercase mb-3 text-accent-light">
             Stay Informed
           </span>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">AMS Blog</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Vireo Blog</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
             Expert insights and educational content from our cardiology team to help you stay
             heart-healthy.

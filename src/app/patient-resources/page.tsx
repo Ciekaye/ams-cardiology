@@ -6,7 +6,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 export const metadata: Metadata = {
   title: "Patient Resources",
   description:
-    "Access patient resources at AMS Cardiology including patient portal, forms, billing, telemedicine, and preparation guides.",
+    "Access patient resources at Vireo Cardiology including patient portal, forms, billing, telemedicine, and preparation guides.",
 };
 
 export default function PatientResourcesPage() {
@@ -69,7 +69,7 @@ export default function PatientResourcesPage() {
               {
                 icon: ClipboardList,
                 title: "First Visit Preparation",
-                desc: "Learn what to bring and how to prepare for your first appointment at AMS Cardiology for a smooth experience.",
+                desc: "Learn what to bring and how to prepare for your first appointment at Vireo Cardiology for a smooth experience.",
                 cta: "View Guide",
                 href: "#first-visit",
                 external: false,
@@ -126,7 +126,7 @@ export default function PatientResourcesPage() {
           <SectionHeading
             label="Your First Visit"
             title="Preparing for Your Appointment"
-            description="Here's what to expect and what to bring when you visit AMS Cardiology for the first time."
+            description="Here's what to expect and what to bring when you visit Vireo Cardiology for the first time."
           />
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
@@ -213,8 +213,8 @@ export default function PatientResourcesPage() {
           />
           <div className="max-w-3xl mx-auto bg-white rounded-xl border border-border-light p-8">
             <p className="text-text-secondary leading-relaxed mb-6">
-              AMS Cardiology accepts most major insurance plans. If you have questions about whether
-              we accept your plan, please contact our billing department at 215-517-1000. We also offer
+              Vireo Cardiology accepts most major insurance plans. If you have questions about whether
+              we accept your plan, please contact our billing department at (555) 014-3782. We also offer
               convenient online bill pay through our secure portal.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -226,7 +226,7 @@ export default function PatientResourcesPage() {
                 <CreditCard className="w-4 h-4 mr-2" />
                 Pay My Bill Online
               </Button>
-              <Button href="tel:+12155171000" variant="outline">
+              <Button href="tel:+15550143782" variant="outline">
                 <Phone className="w-4 h-4 mr-2" />
                 Call Billing Department
               </Button>
@@ -247,9 +247,9 @@ export default function PatientResourcesPage() {
               <CalendarCheck className="w-5 h-5 mr-2" />
               Contact Us
             </Button>
-            <Button href="tel:+12155171000" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button href="tel:+15550143782" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
               <Phone className="w-5 h-5 mr-2" />
-              Call 215-517-1000
+              Call (555) 014-3782
             </Button>
           </div>
         </div>

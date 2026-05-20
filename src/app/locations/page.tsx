@@ -10,7 +10,7 @@ import { getLocationImage } from "@/data/images";
 export const metadata: Metadata = {
   title: "Our Locations",
   description:
-    "Find an AMS Cardiology office near you. We have 4 convenient locations across the Philadelphia region in Horsham and North Wales, PA.",
+    "Find a Vireo Cardiology office near you. We have 4 convenient locations across the Greater Philadelphia region.",
 };
 
 export default function LocationsPage() {
@@ -123,9 +123,9 @@ export default function LocationsPage() {
             description="Call our main office and we'll help you find the most convenient location for your needs."
           />
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button href="tel:+12155171000" variant="primary" size="lg">
+            <Button href="tel:+15550143782" variant="primary" size="lg">
               <Phone className="w-5 h-5 mr-2" />
-              Call 215-517-1000
+              Call (555) 014-3782
             </Button>
             <Button href="/contact" variant="outline" size="lg">
               Contact Us Online

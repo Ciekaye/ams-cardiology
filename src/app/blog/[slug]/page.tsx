@@ -89,8 +89,8 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-text-secondary leading-relaxed mb-6">{post.content}</p>
                 <p className="text-text-secondary leading-relaxed mb-6">
-                  At AMS Cardiology, our team of board-certified cardiologists is committed to providing
-                  the highest level of cardiovascular care. With over 40 years of experience serving the
+                  At Vireo Cardiology, our team of board-certified cardiologists is committed to providing
+                  the highest level of cardiovascular care. With more than a decade of experience serving the
                   Greater Philadelphia area, we combine cutting-edge medical expertise with compassionate,
                   patient-centered care.
                 </p>

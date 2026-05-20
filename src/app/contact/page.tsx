@@ -184,11 +184,11 @@ export default function ContactPage() {
               <div className="bg-primary text-white rounded-xl p-6">
                 <h3 className="font-bold text-lg mb-4">Call Us Directly</h3>
                 <a
-                  href="tel:+12155171000"
+                  href="tel:+15550143782"
                   className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-lg font-semibold"
                 >
                   <Phone className="w-5 h-5" />
-                  215-517-1000
+                  (555) 014-3782
                 </a>
                 <p className="text-white/60 text-sm mt-2">Mon – Fri: 8:00 AM – 5:00 PM</p>
               </div>
@@ -234,9 +234,10 @@ export default function ContactPage() {
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <MapPin className="w-4 h-4 text-primary shrink-0 mt-1" />
+                    {/* fictional address for portfolio demo */}
                     <span className="text-sm text-text-secondary">
-                      500 Welsh Road, Suite 100<br />
-                      Horsham, PA 19044
+                      1234 Chestnut Street, Suite 500<br />
+                      Philadelphia, PA 19107
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -245,7 +246,7 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-primary shrink-0" />
-                    <span className="text-sm text-text-secondary">info@amscardiology.com</span>
+                    <span className="text-sm text-text-secondary">info@vireocardiology.com</span>
                   </div>
                 </div>
               </div>
