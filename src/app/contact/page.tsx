@@ -198,7 +198,7 @@ export default function ContactPage() {
                 <ul className="space-y-3">
                   <li>
                     <a
-                      href="https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-text-secondary hover:text-primary transition-colors"
@@ -208,7 +208,7 @@ export default function ContactPage() {
                   </li>
                   <li>
                     <a
-                      href="https://healowpay.com/HealowPay/jsp/healow/login.jsp"
+                      href="#"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-text-secondary hover:text-primary transition-colors"

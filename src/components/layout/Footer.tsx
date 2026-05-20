@@ -59,8 +59,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               {[
-                { label: "Patient Portal", href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp", external: true },
-                { label: "Pay My Bill", href: "https://healowpay.com/HealowPay/jsp/healow/login.jsp", external: true },
+                { label: "Patient Portal", href: "#", external: true },
+                { label: "Pay My Bill", href: "#", external: true },
                 { label: "Telemedicine", href: "/telemedicine" },
                 { label: "Patient Forms", href: "/patient-resources" },
                 { label: "Request Appointment", href: "/contact" },

@@ -42,6 +42,8 @@ Loaded via `next/font/google` in [`src/app/layout.tsx`](src/app/layout.tsx), exp
 | Headings | **Fraunces** (variable, opsz) | `--font-fraunces` | `font-serif` | 500–700 |
 | Body & UI | **Inter** | `--font-inter` | `font-sans` | 400 / 500 / 600 |
 
+> **Hero exception:** the homepage hero headline intentionally uses **Inter** (bold/extrabold, tight tracking) rather than Fraunces, for a modern, premium full-bleed look.
+
 ---
 
 ## 4. Logo
