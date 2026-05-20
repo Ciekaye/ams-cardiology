@@ -47,10 +47,10 @@ export const mainNavigation: NavItem[] = [
     label: "Patient Resources",
     href: "/patient-resources",
     children: [
-      { label: "Patient Portal", href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp" },
+      { label: "Patient Portal", href: "#" },
       { label: "Telemedicine", href: "/telemedicine" },
       { label: "Patient Forms", href: "/patient-resources#forms" },
-      { label: "Billing", href: "https://healowpay.com/HealowPay/jsp/healow/login.jsp" },
+      { label: "Billing", href: "#" },
       { label: "Blog", href: "/blog" },
     ],
   },
@@ -63,6 +63,6 @@ export const mainNavigation: NavItem[] = [
 export const utilityLinks = [
   { label: "For Referring Providers", href: "/providers" },
   { label: "Telemedicine", href: "/telemedicine" },
-  { label: "Pay My Bill", href: "https://healowpay.com/HealowPay/jsp/healow/login.jsp" },
-  { label: "Patient Portal", href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp" },
+  { label: "Pay My Bill", href: "#" },
+  { label: "Patient Portal", href: "#" },
 ];

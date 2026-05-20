@@ -43,6 +43,12 @@ export default function Home() {
           text: "Our Services",
           href: "/services"
         }}
+        stats={[
+          { value: "19+", label: "Board-Certified Cardiologists" },
+          { value: "10+", label: "Years of Excellence" },
+          { value: "4", label: "Locations" },
+          { value: "100K+", label: "Patients Served" },
+        ]}
       />
 
       {/* ===== QUICK ACCESS CARDS ===== */}
@@ -53,7 +59,7 @@ export default function Home() {
               { icon: UserCircle, title: "Find a Doctor", desc: "Browse our physicians", href: "/physicians", color: "from-blue-500 to-blue-600" },
               { icon: Stethoscope, title: "Our Services", desc: "Procedures & testing", href: "/services", color: "from-teal-500 to-teal-600" },
               { icon: MapPin, title: "Locations", desc: "4 convenient offices", href: "/locations", color: "from-indigo-500 to-indigo-600" },
-              { icon: Heart, title: "Patient Portal", desc: "Access your records", href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp", color: "from-rose-500 to-rose-600" },
+              { icon: Heart, title: "Patient Portal", desc: "Access your records", href: "#", color: "from-rose-500 to-rose-600" },
             ].map((card) => (
               <Link
                 key={card.title}
@@ -289,7 +295,7 @@ export default function Home() {
                 icon: UserCircle,
                 title: "Patient Portal",
                 desc: "Access your medical records, test results, and communicate with your care team securely online.",
-                href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp",
+                href: "#",
                 cta: "Login Now",
                 external: true,
               },
@@ -305,7 +311,7 @@ export default function Home() {
                 icon: CreditCard,
                 title: "Pay My Bill",
                 desc: "Conveniently pay your bill online through our secure payment portal.",
-                href: "https://healowpay.com/HealowPay/jsp/healow/login.jsp",
+                href: "#",
                 cta: "Pay Now",
                 external: true,
               },

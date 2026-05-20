@@ -35,7 +35,7 @@ export default function PatientResourcesPage() {
                 title: "Patient Portal",
                 desc: "Access your medical records, view test results, request prescription refills, and communicate with your care team securely online.",
                 cta: "Login to Portal",
-                href: "https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp",
+                href: "#",
                 external: true,
                 color: "from-blue-500 to-blue-600",
               },
@@ -44,7 +44,7 @@ export default function PatientResourcesPage() {
                 title: "Pay My Bill",
                 desc: "Conveniently pay your bill online through our secure payment portal. View statements and manage your account.",
                 cta: "Pay Now",
-                href: "https://healowpay.com/HealowPay/jsp/healow/login.jsp",
+                href: "#",
                 external: true,
                 color: "from-green-500 to-green-600",
               },
@@ -219,7 +219,7 @@ export default function PatientResourcesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                href="https://healowpay.com/HealowPay/jsp/healow/login.jsp"
+                href="#"
                 variant="secondary"
                 external
               >

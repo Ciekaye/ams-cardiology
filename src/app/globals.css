@@ -16,7 +16,9 @@
   --color-primary-light: #1A5D6E;
   --color-primary-dark: #0A3742;
   --color-accent: #0F4C5C;
-  --color-accent-light: #1A5D6E;
+  /* Eyebrow/label accent shown on dark teal backgrounds — light coral for
+     WCAG-AA contrast (~5.5:1) while reinforcing the coral brand accent. */
+  --color-accent-light: #F4ABAB;
   --color-secondary: #E36F6F;
   --color-secondary-light: #C95757;
   --color-bg-warm: #E8F1F2;

@@ -11,7 +11,7 @@ export default function UtilityBar() {
             <span>(555) 014-3782</span>
           </a>
           <a
-            href="https://mycw14.eclinicalweb.com/portal751/jsp/100mp/login_otp.jsp"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 hover:text-white/80 transition-colors"
@@ -20,7 +20,7 @@ export default function UtilityBar() {
             <span>Patient Portal</span>
           </a>
           <a
-            href="https://healowpay.com/HealowPay/jsp/healow/login.jsp"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white/80 transition-colors"
